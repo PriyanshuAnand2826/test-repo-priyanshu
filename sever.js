@@ -10,6 +10,7 @@ const auth = require('./auth')
 app.use(express.json());
 
 // Connect to MongoDB
+//test
 mongoose.connect(process.env.BASE_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
